@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chat_activity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/lv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:layout_weight="3"
+                android:id="@+id/message"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_35sdp"
+                android:hint="Type your message here"
+                android:inputType="textMultiLine" />
+
+            <android.widget.Button
+                android:layout_weight="1"
+                android:id="@+id/sent"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="SEND" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+</RelativeLayout>

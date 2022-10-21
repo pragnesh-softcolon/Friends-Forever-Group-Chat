@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "108142632085",
+    "project_id": "friends-forever-group-chat",
+    "storage_bucket": "friends-forever-group-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108142632085:android:3b31a95cc818d889840f9c",
+        "android_client_info": {
+          "package_name": "com.example.friendsforevergroupchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108142632085-bm7hbuup2mn1qbb0m40muhcdg5lo1bep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZjhLmWtAcc6PUO_Pmu0QDws3KHjv4xtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108142632085-bm7hbuup2mn1qbb0m40muhcdg5lo1bep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
